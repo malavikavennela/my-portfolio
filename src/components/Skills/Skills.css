@@ -1,0 +1,38 @@
+.skills {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+    text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333; /* Darker color for contrast */
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Flexbox for alignment */
+  flex-wrap: wrap; /* Allows items to wrap */
+  justify-content: center; /* Center items */
+  gap: 20px; /* Space between items */
+}
+
+.skill-item {
+  background: #e0e7ff; /* Light blue background for skill items */
+  color: #333; /* Dark text for readability */
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, background 0.3s; /* Transition effects */
+  width: 150px; /* Set a fixed width */
+  text-align: center; /* Center text */
+  font-weight: 500; /* Medium font weight */
+}
+
+.skill-item:hover {
+  transform: translateY(-5px); /* Lift effect */
+  background: #c7d2fe; /* Darker blue on hover */
+}

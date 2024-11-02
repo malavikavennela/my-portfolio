@@ -1,0 +1,70 @@
+.projects {
+  padding: 50px 20px;
+  background-color: #fff; /* Keep the background white for consistency */
+  text-align: center; /* Center text alignment */
+}
+
+.projects h2 {
+  font-size: 2.5rem; /* Large heading */
+  margin-bottom: 30px; /* Space below heading */
+  color: #333; /* Dark color for contrast */
+  position: relative;
+}
+
+.projects h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ccc; /* Subtle underline effect */
+  margin: 10px auto; /* Center the underline */
+  border-radius: 5px;
+}
+
+.project-cards {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the project cards */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between cards */
+}
+
+.project-card {
+  background: #f9f9f9; /* Light background for the card */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  width: 45%; /* Fixed width for the cards */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for effects */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.project-card h3 {
+  margin: 10px 0; /* Margin for spacing */
+  color: #555; /* Darker color for project titles */
+}
+
+.project-card p {
+  margin: 10px 0; /* Space between description and link */
+}
+
+.project-link {
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold link text */
+  transition: color 0.2s; /* Smooth color transition */
+}
+
+.project-link:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-card {
+    width: 90%; /* Full width on small screens */
+    margin: 0 auto; /* Center the cards */
+  }
+}

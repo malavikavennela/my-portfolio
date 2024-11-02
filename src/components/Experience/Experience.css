@@ -1,0 +1,67 @@
+.experience-section {
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text for contrast */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px 0;
+}
+
+.experience-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #555; /* Darker color for headings */
+}
+
+.experience-cards {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space out items */
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 20px; /* Space between cards */
+}
+
+.experience-card {
+  background: #f9f9f9; /* Light background for cards */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.2s ease; /* Smooth scaling */
+  flex: 1; /* Allow cards to grow */
+  min-width: 250px; /* Minimum width for cards */
+  max-width: 48%; /* Maximum width for a better layout */
+}
+
+.experience-card:hover {
+  transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+.experience-card strong {
+  font-size: 1.8rem; /* Larger font for job title */
+  color: #0072ff; /* A classic blue for emphasis */
+}
+
+.experience-card ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+}
+
+.experience-card li {
+  background: #eaeaea; /* Background color for tasks */
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 5px 0; /* Space between items */
+  transition: background 0.2s; /* Smooth background change */
+}
+
+.experience-card li:hover {
+  background: #d1d1d1; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .experience-cards {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      align-items: center; /* Center align on small screens */
+  }
+}

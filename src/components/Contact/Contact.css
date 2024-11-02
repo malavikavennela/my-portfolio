@@ -1,0 +1,45 @@
+.contact {
+  padding: 50px 20px;
+  background-color: #fff; /* White background for a clean look */
+  text-align: center; /* Center text alignment */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.contact h2 {
+  font-size: 2.5rem; /* Large heading */
+  margin-bottom: 20px; /* Space below heading */
+  color: #333; /* Dark color for contrast */
+}
+
+.contact p {
+  font-size: 1.2rem; /* Slightly larger font for readability */
+  margin: 10px 0; /* Space between paragraphs */
+  color: #555; /* Dark gray color for text */
+}
+
+.contact a {
+  color: #007BFF; /* Classic blue color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold link text */
+  transition: color 0.2s; /* Smooth color transition */
+}
+
+.contact a:hover {
+  color: #0056b3; /* Darker shade on hover for better interaction */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact {
+    padding: 30px 10px; /* Adjust padding on smaller screens */
+  }
+
+  .contact h2 {
+    font-size: 2rem; /* Slightly smaller heading on mobile */
+  }
+
+  .contact p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+}

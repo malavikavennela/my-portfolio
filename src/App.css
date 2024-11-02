@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 80px;
+}
+
+::-webkit-scrollbar-track {
+    background: #222a35;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #575c66;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #626970;
+}
+.divider {
+  width: 100%; /* Adjust the width to your liking */
+  margin: 20px auto; /* Center the line with margin */
+  border: none; /* Remove default border */
+  height: 2px; /* Height of the line */
+  background-color: #dcdcdc; /* Light gray color for the line */
+}
+.container{
+  width: 100vw;
+}
